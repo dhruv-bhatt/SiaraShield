@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Larger blue circle in back -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/>
+
+        </shape>
+    </item>
+    <!-- Smaller red circle in front -->
+    <item>
+        <shape android:shape="oval" android:padding="10dp">
+            <!-- transparent stroke = larger_circle_size - smaller_circle_size -->
+            <solid android:color="#0062a9" />
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/double_arrow" />
+</layer-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accessibility"
+        android:title="@string/accessibility" />
+
+    <item
+        android:id="@+id/report_image"
+        android:title="@string/report_image" />
+
+    <item
+        android:id="@+id/report_bug"
+        android:title="@string/report_bug" />
+
+
+</menu>
